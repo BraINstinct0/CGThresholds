@@ -1,4 +1,4 @@
-import urllib2
+import urllib
 import Tkinter as tk
 import sys
 import ttk
@@ -8,7 +8,7 @@ this = sys.modules[__name__]
 this.msg = " "
 
 def plugin_start():
-    	print ('CGPlugin Starting')
+    	print('CGPlugin Starting')
 	return ('CGThresholds')
 
 def plugin_end():
@@ -53,7 +53,7 @@ def journal_entry(cmdr, is_beta, system, station, entry, state):
         					#print ('URL Success')
 						this.msg = 'CG Post Success'
     					else:
-						print ('URL Fail' + str(r.status_code))
+						print('URL Fail' + str(r.status_code))
 						this.msg = 'CG Post Failed'
 				except:
 					this.msg = 'CG Post Exception'
