@@ -1,3 +1,5 @@
+* Archived due to original developer having no plans to further update this plugin, since [Inara]( https://inara.cz/galaxy-communitygoals/ ) does the job instead
+
 # CGThresholds
 ![PluginShot](https://i.imgur.com/lcfxil9.png)
 
